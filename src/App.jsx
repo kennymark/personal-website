@@ -9,7 +9,7 @@ function App({ title, children }) {
   const { pathname, search } = window.location
 
   useEffect(() => {
-    process.env.NODE_ENV.includes('prod') && ReactGA.initialize('UA-68267074-1')
+    ReactGA.initialize('UA-68267074-1')
     ReactGA.pageview(pathname + search);
   }, [pathname])
 
