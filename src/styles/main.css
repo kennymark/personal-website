@@ -1,0 +1,165 @@
+:root {
+  --text-color: #fff;
+  --body: rgb(47, 52, 55);
+  --gray: #707070;
+  --dark: rgb(27, 27, 27);
+  --fz: 20px;
+  --intro-text: 100px;
+  --input: #ffa1ae !important;
+  --red: #FF5F5F !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Operator Mono, "Segoe UI", "Roboto", "Oxygen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left top, #1c0c15, #381826, #582235, #7a2d40, #9d3948, #b1404c, #c4484f, #d85151, #e25454, #eb5858, #f55b5b, #ff5f5f);
+  color: white;
+  font-size: var(--fz);
+  height: 100%;
+  max-height: 100%;
+  z-index: 1 !important;
+  background-attachment: fixed;
+}
+
+#root {
+  height: 100%;
+}
+
+a,
+li {
+  color: var(--text-color);
+
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+}
+
+
+ul {
+  display: flex;
+
+}
+
+.intro-box {
+  /* width: 55%; */
+  max-width: 1004px;
+  border: 10px solid white;
+  box-shadow: 9px 8px 2px #1f11144f;
+}
+
+.intro-text {
+  font-size: var(--intro-text);
+  color: white;
+  text-shadow: 5px 9px #823042;
+}
+
+.container-2 {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.form-control {
+  background: var(--input);
+  border: 0;
+  font-size: 17px !important;
+  font-weight: bold;
+  color: #383838 !important;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  height: 50px !important;
+}
+
+.project-box {
+  min-height: 350px;
+  border-radius: 10px;
+}
+
+.project-text {
+  font-weight: bold;
+  color: #ffc6d4 !important;
+  padding-top: 10px;
+}
+
+.desc {
+  width: 70%;
+  font-weight: 400;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.react-pdf__Page__canvas {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+img {
+  width: inherit;
+  height: 350px;
+  border-radius: inherit;
+}
+
+.markdown ul {
+  display: block
+}
+
+.markdown ul li input {
+  position: relative;
+  right: 13px;
+  top: 16px;
+}
+
+.markdown p img {
+  width: 120px;
+  height: 20px;
+}
+
+@media only screen and (max-width:600px) {
+  .intro-text {
+    font-size: 35px;
+    display: flex
+  }
+
+  .intro-text>span {
+    font-size: 37px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 6px;
+  }
+
+  .col-md p {
+    width: 98%;
+    text-align: justify;
+  }
+
+  .skills h1 {
+    border: none;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+.active {
+  font-weight: bold;
+  color: #0056b3;
+}
