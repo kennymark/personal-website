@@ -3,7 +3,7 @@
        "id": 1,
        "name": "express-starter",
        "link": "https://github.com/kennymark/express-starter",
-       "image": "...",
+       "image": "https://raw.githubusercontent.com/kennymark/express-starter/master/screenshots/admin.png",
        "markdown": "https://raw.githubusercontent.com/kennymark/express-starter/master/README.md"
      },
      {
