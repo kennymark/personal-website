@@ -9,7 +9,7 @@ const Success = props => (
       <section id="one">
         <div className="inner center">
           <header className="major">
-            <h1 className='title-4'>Success/Thank You Page</h1>
+            <h1 className='title-4'>Success</h1>
           </header>
           <p>Thank you for contacting me!. I will reply as soon as possible</p>
         </div>
