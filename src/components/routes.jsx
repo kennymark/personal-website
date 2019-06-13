@@ -9,7 +9,7 @@ import Projects from './projects/projects'
 import Project from './project/project'
 import Notfound from './notfound/notfound';
 import Skills from './skills/skills'
-
+import Success from './success/success'
 
 
 
@@ -25,6 +25,7 @@ const Routes = () => {
           <Route path='/project/:id' component={Project} />
           <Route path='/contact' component={Contact} />
           <Route path='/skills' component={Skills} />
+          <Route path='/success' component={Success} />
           <Route component={Notfound} />
         </Switch>
       </Router>

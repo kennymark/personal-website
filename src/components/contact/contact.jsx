@@ -8,7 +8,7 @@ function Contact() {
     <Animate>
       <App title='Contact'>
         {/* action="https://formspree.io/geniounico@outlook.com"  */}
-        <form method='POST' data-netlify="true" name="contact">
+        <form method='POST' data-netlify="true" name="contact" action='/success'>
           <div className="row" style={{ marginTop: 150 }}>
             <div className="col-md">
 
@@ -31,6 +31,7 @@ function Contact() {
             <div className="col-md">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" className='form-control' rows="10" required />
+              <input type="hidden" name="form-name" value="contact" />
             </div>
           </div>
 
