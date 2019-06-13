@@ -8,7 +8,8 @@ function Contact() {
     <Animate>
       <App title='Contact'>
         {/* action="https://formspree.io/geniounico@outlook.com"  */}
-        <form method='POST' data-netlify="true" name="contact" action='/success'>
+        {/* action='/success' */}
+        <form method='POST' data-netlify="true" name="contact" >
           <div className="row" style={{ marginTop: 150 }}>
             <div className="col-md">
 
