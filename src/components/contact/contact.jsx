@@ -10,6 +10,8 @@ function Contact() {
         {/* action="https://formspree.io/geniounico@outlook.com"  */}
         {/* action='/success' */}
         <form method='POST' data-netlify="true" name="contact" >
+          <input type="hidden" name="form-name" value="contact" />
+
           <div className="row" style={{ marginTop: 150 }}>
             <div className="col-md">
 
@@ -20,7 +22,7 @@ function Contact() {
 
               <div className="form-group">
                 <label htmlFor="email">Email</label>
-                <input type="email" className="form-control" name="_replyto" id='email' required />
+                <input type="email" className="form-control" name="email" id='email' required />
               </div>
 
               <div className="form-group">
@@ -32,7 +34,6 @@ function Contact() {
             <div className="col-md">
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" className='form-control' rows="10" required />
-              <input type="hidden" name="form-name" value="contact" />
             </div>
           </div>
 

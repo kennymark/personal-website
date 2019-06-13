@@ -45,6 +45,14 @@
 </head>
 
 <body>
+  <form netlify netlify-honeypot="bot-field" name="contact" hidden>
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="text" id="subject" />
+    <input type="email" name="email" id='email' required />
+    <input type="text" id="name" />
+    <textarea name="message" id="message" rows="10" required />
+    <button type='submit'>Send Mail </button>
+  </form>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
