@@ -9,7 +9,7 @@ function Contact() {
       <App title='Contact'>
         {/* action="https://formspree.io/geniounico@outlook.com"  */}
         {/* action='/success' */}
-        <form method='POST' data-netlify="true" name="contact" >
+        <form method='POST' data-netlify="true" name="contact" action='/success' >
           <input type="hidden" name="form-name" value="contact" />
 
           <div className="row" style={{ marginTop: 150 }}>
