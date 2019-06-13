@@ -12,7 +12,9 @@ const Home = () => {
       <div className="landing d-flex flex-column">
 
         <Fade>
-          <Nav />
+          <div className="container-2">
+            <Nav />
+          </div>
         </Fade>
 
         <Fade big cascade bottom>

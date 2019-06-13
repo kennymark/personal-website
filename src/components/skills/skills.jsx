@@ -23,7 +23,7 @@ function Skills() {
 							<li>React</li>
 							<li>Cross-browser development</li>
 							<li>CSS Preprocessor(SASS)</li>
-							<a className='btn btn-light rounded-pill mt-4 ' data-target="#cvModal" data-toggle='modal' href='/assets/cv.pdf'>
+							<a className='btn btn-light rounded-pill mt-4' href='/assets/cv.pdf'>
 								View/Download CV <CV color='gray' fontSize='27px' />
 							</a>
 						</div>
