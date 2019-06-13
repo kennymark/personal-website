@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Operator Mono, "Segoe UI", "Roboto", "Oxygen", sans-serif;
+  font-family: Operator Mono, San Fracisco Mono, SF Mono, Avenir, Roboto Mono, Roboto, Droid Sans Mono, "Oxygen", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left top, #1c0c15, #381826, #582235, #7a2d40, #9d3948, #b1404c, #c4484f, #d85151, #e25454, #eb5858, #f55b5b, #ff5f5f);
