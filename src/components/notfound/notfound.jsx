@@ -4,10 +4,13 @@ import GoBack from '../shared/backButton'
 const Notfound = () => {
   return (
     <>
-      <GoBack />
-      <p style={{ color: 'white' }}>
-        Error 404
-      </p>
+      <div className="container">
+        <GoBack />
+        <p className='center text-light'>
+          Error 404
+        </p>
+      </div>
+
     </>
   )
 }
