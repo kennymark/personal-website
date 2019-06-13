@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/main.css';
 import './styles/normalize.css';
+import './styles/bootstrap.min.css'
 import Route from './components/routes'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render( < Route / > , document.getElementById('root'));
+ReactDOM.render(< Route />, document.getElementById('root'));
 
 serviceWorker.register();
