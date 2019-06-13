@@ -1,17 +1,14 @@
 import React from 'react'
-import GoBack from '../shared/backButton'
+import App from '../../App'
 
 const Notfound = () => {
   return (
-    <>
-      <div className="container">
-        <GoBack />
-        <p className='center text-light'>
-          Error 404
-        </p>
-      </div>
+    <App title='Error 404'>
+      <div className="center">
+        <p>The page you are looking for does not exist</p>
 
-    </>
+      </div>
+    </App>
   )
 }
 
