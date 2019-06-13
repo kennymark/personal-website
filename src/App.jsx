@@ -1,18 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import GoBack from './components/shared/backButton'
-import ReactGA from 'react-ga';
 import Pulse from 'react-reveal/Fade'
 import Nav from './components/shared/header';
 
 
 function App({ title, children }) {
-  const { pathname, search } = window.location
-
-  useEffect(() => {
-    ReactGA.initialize('UA-68267074-1')
-    ReactGA.pageview(pathname + search);
-  }, [pathname])
-
   return (
     <Pulse>
       <div className="container-2">
