@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <div className="landing d-flex flex-column">
-
         <Fade>
           <div className="container-2">
             <Nav />

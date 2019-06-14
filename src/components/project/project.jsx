@@ -20,7 +20,6 @@ function Project({ match }) {
 
   useEffect(() => {
     findProject(id)
-
     return () => setProject(null)
   }, [])
 
@@ -30,14 +29,10 @@ function Project({ match }) {
       .then(data => setProject(data.results[id - 1]))
   }
 
-  (() => {
-    fetch(project.markdown)
-      .then(res => res.text())
-      .then(data => { setMd(data) })
-      .catch(err => '')
-  })()
-
-
+  fetch(project.markdown)
+    .then(res => res.text())
+    .then(data => { setMd(data) })
+    .catch(err => '')
 
   return (
     <Slide top>

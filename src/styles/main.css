@@ -27,6 +27,7 @@ body {
   max-height: 100%;
   z-index: 1 !important;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 #root {
@@ -141,6 +142,11 @@ img {
   color: #0056b3;
 }
 
+.skill-header {
+  border-right: 1px solid white;
+  text-align: center;
+}
+
 @media only screen and (max-width:600px) {
   nav {
     height: 50px;
@@ -159,15 +165,17 @@ img {
   .nav-link {
     display: block;
     padding: 3px;
+    font-size: 19px;
   }
 
   nav ul {
     margin: auto !important;
+    text-align: center;
+    justify-content: center;
   }
 
   .col-md p {
     width: 98%;
-    /* text-align: justify; */
   }
 
   .skills h1 {
@@ -178,6 +186,9 @@ img {
     font-size: 2.5rem;
   }
 
+  .desc {
+    width: 90%;
+  }
 
   form {
     position: relative;
@@ -189,6 +200,14 @@ img {
     margin-bottom: 15px;
   }
 
+  .markdown {
+    overflow-y: inherit !important;
+    height: 400px !important;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+  }
+
   .markdown h1 {
     font-size: 34px;
   }
@@ -196,4 +215,9 @@ img {
   .markdown h2 {
     font-size: 30px;
   }
+
+  .skill-header {
+    border-right: 0;
+  }
+
 }

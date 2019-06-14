@@ -11,7 +11,7 @@ function Skills() {
 			<App title='Skills' className='skills'>
 				<div className='row mx-auto mt-5 '>
 					<div className='col-md'>
-						<h1 className='display-5 border-right text-center'>Front-end</h1>
+						<h1 className='display-5 skill-header'>Front-end</h1>
 						<div className='desc mx-auto  text-left'>
 							<li>HTML</li>
 							<li>CSS/SASS</li>
@@ -29,7 +29,7 @@ function Skills() {
 						</div>
 					</div>
 					<div className='col-md'>
-						<h1 className='display-5 border-right text-center'>Back-end</h1>
+						<h1 className='display-5 skill-header'>Back-end</h1>
 						<div className='desc mx-auto text-left'>
 							<li>Backend with Node</li>
 							<li>ExpressJS</li>
@@ -41,8 +41,8 @@ function Skills() {
 							<li>RESTFUL API Design</li>
 						</div>
 					</div>
-					<div className='col-md'>
-						<h1 className='display-5 text-center'>Extras</h1>
+					<div className='col-md  mb-5'>
+						<h1 className='display-5 skill-header'>Extras</h1>
 						<div className='desc mx-auto text-left'>
 							<li>Designing with Adobe XD</li>
 							<li>Mobile Apps with React Native</li>
