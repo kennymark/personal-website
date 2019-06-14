@@ -9,6 +9,13 @@
   --red: #FF5F5F !important;
 }
 
+@font-face {
+  font-family: Operator Mono;
+  /* src: local('Operator Mono') url("../../public/assets/fonts/OperatorMono-Medium.otf") format("opentype"); */
+}
+
+
+
 html {
   height: 100%;
 }
