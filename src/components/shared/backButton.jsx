@@ -2,8 +2,7 @@ import React from 'react'
 import Back from 'react-ionicons/lib/MdArrowBack'
 import { withRouter } from 'react-router-dom'
 
-const GoBack = ({ history }) => {
-
+function GoBack({ history }) {
   return (
     <>
       <button className="btn btn-light rounded-pill "

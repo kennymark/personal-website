@@ -3,7 +3,7 @@ import Image from 'react-image'
 import Md from 'react-markdown'
 import App from '../../App'
 import Slide from 'react-reveal/Slide'
-
+import ViewButton from '../shared/viewButton'
 
 function Project({ match }) {
   const [project, setProject] = useState({})
@@ -42,9 +42,10 @@ function Project({ match }) {
   return (
     <Slide top>
       <App title='Project'>
-        <div className="row">
+        <ViewButton link={project.link} />
+        <div className="row pb-4">
           <div className="col-md rounded mr-2 w-100 proj">
-            <Image src={[project.image, '/assets/skeleton.webp']} style={{ height: 700 }} className='shadow-md' />
+            <Image src={[project.image, '/assets/skeleton.webp']} className='shadow-md' />
           </div>
 
           <div className="col-md markdown rounded-sm" style={mdStyle}>

@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  margin: 0.5em 0;
   font-family: Operator Mono, San Fracisco Mono, SF Mono, Avenir, Roboto Mono, Roboto, Droid Sans Mono, "Oxygen", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -93,6 +94,9 @@ input {
   padding-top: 10px;
 }
 
+.proj img {
+  height: 700px;
+}
 
 
 .desc {
@@ -132,10 +136,20 @@ img {
   height: 20px;
 }
 
+.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
 @media only screen and (max-width:600px) {
+  nav {
+    height: 50px;
+    width: 100%;
+  }
+
   .intro-text {
     font-size: 35px;
-    display: flex
+    display: flex;
   }
 
   .intro-text>span {
@@ -167,12 +181,12 @@ img {
 
   form {
     position: relative;
-    top: -130px;
+    top: -100px;
   }
 
-  .proJ>img {
+  .proj>img {
     height: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .markdown h1 {
@@ -182,9 +196,4 @@ img {
   .markdown h2 {
     font-size: 30px;
   }
-}
-
-.active {
-  font-weight: bold;
-  color: #0056b3;
 }
