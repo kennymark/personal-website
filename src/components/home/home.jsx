@@ -18,8 +18,8 @@ const Home = () => {
 
         <Fade big cascade bottom>
           <div className="intro-box align-self-center center">
-            <h1 className='intro-text text-left px-4 d-flex flex-column'>
-              Hello! I'm KENNY,
+            <h1 className='intro-text px-4 d-flex flex-column'>
+              <span>Hello! I'm KENNY,</span>
               <span className='text-center '>
                 I {' '}<Typed strings={['develop', 'design', 'and', 'code']} className='font-italic' typeSpeed={150} backSpeed={90} loop />
                 apps

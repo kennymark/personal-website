@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Roboto+Mono:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap');
 
 
 :root {
@@ -22,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   margin: 0.5em 0;
-  font-family: Operator Mono, 'Roboto Mono','Fira Mono' SF Mono, Avenir, "Oxygen", sans-serif;
+  font-family: Operator Mono,'Fira Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left top, #1c0c15, #381826, #582235, #7a2d40, #9d3948, #b1404c, #c4484f, #d85151, #e25454, #eb5858, #f55b5b, #ff5f5f);
@@ -48,15 +47,11 @@ li {
   font-weight: 500;
 }
 
-
 ul {
   display: flex;
-
 }
 
 .intro-box {
-  /* width: 55%; */
-  max-width: 1004px;
   border: 10px solid white;
   box-shadow: 9px 8px 2px #1f11144f;
 }

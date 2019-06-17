@@ -5,6 +5,7 @@ import Nav from './components/shared/header';
 
 
 function App({ title, children }) {
+
   return (
     <Animate>
       <div className="container-2 ">
