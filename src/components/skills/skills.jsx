@@ -19,7 +19,7 @@ function Skills() {
 							<li>JavaScript/ES6+</li>
 							<li>Ajax & Rest API's</li>
 							<li>Responsive Design</li>
-							<li>Angular 2+</li>
+							<li>Angular 2+/Typescript</li>
 							<li>React</li>
 							<li>Cross-browser development</li>
 							<li>CSS Preprocessor(SASS)</li>
