@@ -19,8 +19,8 @@ function Skills() {
 							<li>JavaScript/ES6+</li>
 							<li>Ajax & Rest API's</li>
 							<li>Responsive Design</li>
-							<li>Angular 2+/Typescript</li>
 							<li>React</li>
+							<li>Angular 2+/Typescript</li>
 							<li>Cross-browser development</li>
 							<li>CSS Preprocessor(SASS)</li>
 							<a className='btn btn-light rounded-pill mt-4' href='/assets/cv.pdf'>
@@ -39,6 +39,8 @@ function Skills() {
 							<li>MVC pattern</li>
 							<li>Database with SQL, MongoDB</li>
 							<li>RESTFUL API Design</li>
+							<li>NPM, Nodejs, Gulp etc.</li>
+
 						</div>
 					</div>
 					<div className='col-md  mb-5'>
@@ -46,8 +48,9 @@ function Skills() {
 						<div className='desc mx-auto text-left'>
 							<li>Designing with Adobe XD</li>
 							<li>Mobile Apps with React Native</li>
+							<li>Object Oriented Cde</li>
 							<li>Project management with Jira, Confluence, Git etc.</li>
-							<li>Unit & Integration testing</li>
+							<li>TDD, Unit & Integration testing</li>
 							<li>Oh, I speak like 7 languages too </li>
 						</div>
 					</div>
