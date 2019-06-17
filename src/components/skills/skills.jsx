@@ -16,10 +16,10 @@ function Skills() {
 							<li>HTML</li>
 							<li>CSS/SASS</li>
 							<li>JQuery</li>
+							<li>React</li>
 							<li>JavaScript/ES6+</li>
 							<li>Ajax & Rest API's</li>
 							<li>Responsive Design</li>
-							<li>React</li>
 							<li>Angular 2+/Typescript</li>
 							<li>Cross-browser development</li>
 							<li>CSS Preprocessor(SASS)</li>
@@ -38,9 +38,9 @@ function Skills() {
 							<li>Templating handlebars, ejs</li>
 							<li>MVC pattern</li>
 							<li>Database with SQL, MongoDB</li>
+							<li>Schema Design</li>
 							<li>RESTFUL API Design</li>
 							<li>NPM, Nodejs, Gulp etc.</li>
-
 						</div>
 					</div>
 					<div className='col-md  mb-5'>
