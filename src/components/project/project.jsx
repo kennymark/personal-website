@@ -24,7 +24,7 @@ function Project({ match }) {
   }, [])
 
   const findProject = (id) => {
-    fetch(url, { headers: { 'Content-Type': json, 'Accept': json } })
+    fetch(url, { headers: { 'Content-Type': json, 'Accept': json, mode: 'cors' } })
       .then(res => res.json())
       .then(data => setProject(data.results[id - 1]))
   }
@@ -42,7 +42,6 @@ function Project({ match }) {
           <div className="col-md rounded mr-2 w-100 proj">
             <Image src={[project.image, '/assets/skeleton.webp']} className='shadow-md' />
           </div>
-
           <div className="col-md markdown rounded-sm" style={mdStyle}>
             <Md source={md} escapeHtml={true} />
           </div>
