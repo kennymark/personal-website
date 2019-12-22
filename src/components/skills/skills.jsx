@@ -21,8 +21,7 @@ function Skills() {
 							<li>Ajax & Rest API's</li>
 							<li>Responsive Design</li>
 							<li>Angular 2+/Typescript</li>
-							<li>Cross-browser development</li>
-							<li>CSS Preprocessor(SASS)</li>
+							<li>Cross-browser development/testing</li>
 							<a className='btn btn-light rounded-pill mt-4' href='/assets/cv.pdf'>
 								View/Download CV <CV color='gray' fontSize='27px' />
 							</a>
@@ -32,9 +31,8 @@ function Skills() {
 						<h1 className='display-5 skill-header'>Back-end</h1>
 						<div className='desc mx-auto text-left'>
 							<li>Backend with Node</li>
-							<li>ExpressJS</li>
-							<li>JWT Authentication</li>
-							<li>Passportjs Authentication</li>
+							<li>API/CRUD Development with ExpressJs </li>
+							<li>Authentication / Authorization</li>
 							<li>Templating handlebars, ejs</li>
 							<li>MVC pattern</li>
 							<li>Database with SQL, MongoDB</li>
@@ -47,8 +45,7 @@ function Skills() {
 						<h1 className='display-5 skill-header'>Extras</h1>
 						<div className='desc mx-auto text-left'>
 							<li>Designing with Adobe XD</li>
-							<li>Mobile Apps with React Native</li>
-							<li>Object Oriented Cde</li>
+							<li>Mobile app dev with React Native</li>
 							<li>Project management with Jira, Confluence, Git etc.</li>
 							<li>TDD, Unit & Integration testing</li>
 							<li>Oh, I speak like 7 languages too </li>

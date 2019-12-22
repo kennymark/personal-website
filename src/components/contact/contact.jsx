@@ -5,6 +5,9 @@ import Mail from 'react-ionicons/lib/MdMail'
 function Contact() {
   return (
     <App title='Contact'>
+      <h4 className="text-white">Email:
+        <label className="text-light font-weight-light text-justify">markcoffiekenneth@gmail.com</label>
+      </h4>
       <form method='POST' data-netlify="true" name="contact" action='/success' >
         <input type="hidden" name="form-name" value="contact" />
 

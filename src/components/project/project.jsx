@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'react-image'
 import Md from 'react-markdown'
 import App from '../../App'
-import Slide from 'react-reveal/Slide'
+import Fade from 'react-reveal/Fade'
 import ViewButton from '../shared/viewButton'
 
 function Project({ match }) {
@@ -35,7 +35,7 @@ function Project({ match }) {
     .catch(err => '')
 
   return (
-    <Slide top>
+    <Fade>
       <App title='Project'>
         <ViewButton link={project.link} />
         <div className="row pb-4">
@@ -48,7 +48,7 @@ function Project({ match }) {
 
         </div>
       </App>
-    </Slide>
+    </Fade>
   )
 }
 
